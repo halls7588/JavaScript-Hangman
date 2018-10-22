@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>JavaScript Hangman game</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+      <div class="wrapper">
+          <h1>Hangman</h1>
+          <p>Pick a letter or click hint to for a clue.</p>
+      </div>
+      <div class="wrapper">
+          <div id="buttons">
+          </div>
+          <p id="catagoryName"></p>
+          <div id="hold">
+          </div>
+          <p id="guesses"></p>
+          <p id="clue">Clue -</p>
+          <canvas id="stickman">Your Browser does not support the Canvas tag. Game can not be loaded.</canvas>
+          <div class="container">
+              <button id="hint">Hint</button>
+              <button id="reset">Play again</button>
+          </div>
+      </div>
+      <script src="js/index.js"></script>
+  </body>
+</html>
